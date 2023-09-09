@@ -1,0 +1,23 @@
+.buttons {
+  height: 40px ;
+font-family: Montserrat;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 140%; /* 25.2px */
+letter-spacing: 0.18px;
+border-radius: 13px;
+width: 100%;
+
+}
+
+.secondary {
+  background: #E3E3E3;
+  color: #263857;
+}
+
+.primary {
+  background: #263857;
+  color: #E3E3E3;
+border: 2px solid #142A51;
+}
