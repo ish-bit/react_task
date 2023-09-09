@@ -1,0 +1,10 @@
+.editButton{
+    color: #263857;
+font-family: Montserrat;
+font-size: 13px;
+font-style: normal;
+font-weight: 500;
+line-height: 140%; /* 18.2px */
+letter-spacing: 0.13px;
+cursor: pointer;text-decoration: underline;
+}

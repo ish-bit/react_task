@@ -1,0 +1,39 @@
+.inputs {
+    border-radius: 16px;
+background: #F8FBFF;
+height: 54px;
+}
+
+.inputs .ant-select-selector{
+    border-radius: 16px !important;
+background: #F8FBFF !important;
+height: 54px !important;
+}
+.ant-form-item-label{
+    color: #263857;
+font-family: Montserrat;
+font-size: 13px;
+font-style: normal;
+font-weight: 500;
+line-height: 140%; /* 18.2px */
+letter-spacing: 0.13px;
+}
+.ant-form-item-label
+  > label.ant-form-item-required:not(.ant-form-item-required-mark-optional)::after {
+    display: inline-block;
+    margin-right: 4px;
+    color: #263857;
+    font-size: 14px;
+    font-family: IBM Plex Sans;
+    line-height: 1;
+    content: "*";
+}
+
+.ant-form-item-label
+  > label.ant-form-item-required:not(.ant-form-item-required-mark-optional)::before {
+  display: none !important;
+}
+
+.ant-form-item-has-error label{
+    color: #ee0000 !important;
+}

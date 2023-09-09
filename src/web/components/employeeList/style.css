@@ -1,0 +1,66 @@
+.heading {
+    color: var(--Dark-blue_01, #314363);
+    font-family: Montserrat;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%;
+}
+
+.tableRow {
+    padding: 24px 24px 0 24px;
+}
+
+.table .ant-table.ant-table-bordered {
+    border-radius: 30px;
+}
+
+.table thead {
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    height: 140px;
+
+}
+
+.table tbody td {
+    text-align: center;
+    color: var(--Grey_03, #7E98BA);
+    font-family: Montserrat;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%;
+    /* 18.2px */
+    letter-spacing: 0.13px;
+
+}
+
+.table th.ant-table-cell {
+    background: transparent !important;
+    text-align: center !important;
+    vertical-align: bottom;
+    color: #263857;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%;
+    /* 28px */
+    letter-spacing: 0.2px;
+}
+
+.menuIcon{
+    height: 16px;
+    cursor: pointer;
+}
+
+.menuItem {
+    color: #7D7D7D;
+font-family: Montserrat;
+font-size: 10px;
+font-style: normal;
+font-weight: 500;
+line-height: 140%; /* 14px */
+letter-spacing: 0.1px;
+padding-left: 6px;
+}
